@@ -1,0 +1,47 @@
+
+body {
+    background-image: url(neon1.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container h1 {
+    font-size: 36px;
+    color: #fff; /* Set text color to white or a neon color */
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00; /* Neon glow effect */
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+}
+.choices img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+.Choices2 img  {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+.choices button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
